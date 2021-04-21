@@ -1,0 +1,61 @@
+h2{
+    border-left: 10px solid green;
+    border-bottom: 1px solid green;
+    padding: 0 0 5px 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.front-image{
+    width: 50%;
+    margin: auto;
+}
+
+p{
+    width: 50%;
+    margin: auto;
+}
+
+
+#mytable{
+    width: 50%;
+    background-color: blanchedalmond;
+    margin: auto;
+    
+}
+
+#mytable tr{
+    color: rgb(82, 33, 33);
+}
+
+
+#btn{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#btn img{
+    width: 70px;
+    height: 25px;
+}
+#flipkart-img{
+    height: 50px;
+}
+#btn button{
+    background-color: #f30a2d;
+    margin: 0 10px;
+    color: #f1f1f1;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:768px){
+    #mytable{
+       width: 100%;
+       
+    }
+    h2, p{
+        width: 100%;
+        color: red;
+    }
+}
