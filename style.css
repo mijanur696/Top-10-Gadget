@@ -17,10 +17,10 @@ p{
 }
 
 
-#mytable{
-    width: 50%;
+.mytable{
+    width: 50% !important;
     background-color: blanchedalmond;
-    margin: auto;
+    margin: auto !important;
     
 }
 
@@ -31,33 +31,39 @@ p{
 .price-table tr td{
     font-size: 15px;
 }
-#btn{
-    text-align: center;
-    padding: 20px;
+.btn1{
+    text-align: center !important;
+    padding: 20px !important;
     
 }
 
-#btn img{
-    width: 70px;
-    height: 25px;
+.btn1 img{
+    width: 70px !important;
+    height: 25px !important;
 }
 #flipkart-img{
     height: 50px;
 }
-#btn button{
+.btn1 button{
     background-color: #f30a2d;
-    margin: 0 10px;
+    margin: 0 10px !important;
     color: #f1f1f1;
     border-radius: 5px;
 }
 
 @media screen and (max-width:768px){
-    #mytable{
-       width: 100%;
+    .mytable{
+       width: 100% !important;
        
     }
-    h2, p{
+
+   h2, p{
         width: 100%;
-        color: red;
     }
+
+    .front-image{
+        width: 100%;
+        margin: auto;
+    }
+    
 }
