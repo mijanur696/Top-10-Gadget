@@ -51,6 +51,11 @@ p{
     border-radius: 5px;
 }
 
+.price-chart{
+    width: 50% ;
+    margin: auto;
+}
+
 @media screen and (max-width:768px){
     .mytable{
        width: 100% !important;
@@ -73,9 +78,4 @@ p{
 
 
 
-/* *****************************************************************  chart style ***************************************************** */
 
-.price-chart{
-    width: 50% ;
-    margin: auto;
-}
