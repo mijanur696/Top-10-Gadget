@@ -6,12 +6,12 @@ var myChart=new Chart(ctx,{
         labels:['Jan','Feb','Mar','Apr','May',],
         datasets:[{
           label:'Amazon Price',
-          data:[10000,20000,45000,72560,50000,],
+          data:[49999,53999,49999,54999,49999,],
           backgroundColor:'#FF9900',
         },
         {
           label:'Flipkart Price',
-          data:[36000,26000,36000,78560,60000,],
+          data:[51999,50999,54999,54999,49999,],
           backgroundColor:'#F8E831',
         },   
       ], 
@@ -50,14 +50,15 @@ var myChart=new Chart(ctx,{
     type:"bar",
     data:{
         labels:['Jan','Feb','Mar','Apr','May',],
-        datasets:[{
-          label:'Amazon Price',
-          data:[1000,2000,4500,72560,50000,],
-          backgroundColor:'#FF9900',
-        },
+        datasets:[
+        // {
+        //   label:'Amazon Price',
+        //   data:[1000,2000,4500,72560,50000,],
+        //   backgroundColor:'#FF9900',
+        // },
         {
           label:'Flipkart Price',
-          data:[3600,2600,36000,785,60000,],
+          data:[48999,48999,49999,48999,49999,],
           backgroundColor:'#F8E831',
         },   
       ], 
@@ -65,6 +66,7 @@ var myChart=new Chart(ctx,{
 
     options:{
         responsive:true,
+        maintainAspectRatio:false,
         layout:{
           padding:{
               top:20,
