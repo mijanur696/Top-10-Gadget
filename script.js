@@ -77,7 +77,7 @@ var myChart=new Chart(ctx,{
             position:'bottom',
             color:'green',
             font:{
-              size:20
+              size:18
             }
           }
         }
