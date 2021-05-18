@@ -53,6 +53,7 @@ p{
 
 .price-chart{
     width: 50%;
+    height: 50%;
     margin: auto;
 }
 
@@ -74,7 +75,7 @@ p{
     
     .price-chart{
         width: 100% !important;
-        height: 30% !important;
+        height: 50% !important;
     }
 }
 
