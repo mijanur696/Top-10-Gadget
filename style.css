@@ -59,7 +59,7 @@ p{
 @media screen and (max-width:768px){
     .mytable{
        width: 100% !important;
-       height: 10% !important;
+       
        
     }
 
@@ -74,6 +74,7 @@ p{
     
     .price-chart{
         width: 100% !important;
+        height: 15% !important;
     }
 }
 
