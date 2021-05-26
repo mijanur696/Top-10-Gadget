@@ -8,15 +8,13 @@ var myChart=new Chart(ctx,{
           label:'Amazon Price',
           data:[49999,53999,49999,54999,49999,],
           backgroundColor:'#FF9900',
-          fill:true,
-          tension:0.4,
+        
         },
         {
           label:'Flipkart Price',
           data:[51999,50999,54999,54999,49999,],
           backgroundColor:'#F8E831',
-          fill:true,
-          tension:0.4,
+         
         },   
       ], 
     },

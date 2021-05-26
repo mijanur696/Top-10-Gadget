@@ -1,4 +1,11 @@
-h2{
+
+h1{
+    font-size: x-large !important;
+}
+
+
+
+.heading2{
     border-left: 10px solid green;
     border-bottom: 1px solid green;
     padding: 0 0 5px 10px;
@@ -11,7 +18,7 @@ h2{
     margin: auto;
 }
 
-p{
+.para{
     width: 50%;
     margin: auto;
 }
@@ -67,7 +74,7 @@ h6{
        
     }
 
-   h2, p{
+   .heading2, .para{
         width: 100%;
     }
 
@@ -78,10 +85,24 @@ h6{
     
     .price-chart{
         width: 100% !important;
-        height: 50vh;
+        height: 50vh !important;
     }
 }
 
+
+/* ************************************************** footer*************************** */
+
+
+.ft  a{
+    text-decoration: none;
+    color: white;
+}
+.ft a:hover{
+    color: #4bcffa;
+}
+footer{
+     font-family: 'Maven Pro', sans-serif;;
+}
 
 
 
