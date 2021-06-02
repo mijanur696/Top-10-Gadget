@@ -83,6 +83,7 @@ nav > ul > li a:hover{
 
       nav > ul> li{
          display: block;
+         text-align: left;
       }
 
       label.logo{
