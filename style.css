@@ -69,7 +69,7 @@ nav > ul > li a:hover{
     }
     nav>ul {
           position: fixed;
-          width: 100%;
+          width: 70%;
           height: 100vh;
           background: #2f3640;
           top:40px;
@@ -78,7 +78,7 @@ nav > ul > li a:hover{
           transition: all .5s;
       }
       nav>ul.show{
-          left: 0;
+          left: 0%;
       }
 
       nav > ul> li{
