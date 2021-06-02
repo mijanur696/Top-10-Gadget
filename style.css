@@ -1,3 +1,93 @@
+/* ********************************** navbar ************************************** */
+
+nav {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 100%;
+    background: #34495e;
+}
+label.logo{
+    font-size: 30px;
+    color: #f1f1f1;
+    padding: 0 100px;
+}
+
+nav > ul {
+    float: right;
+    margin-right: 40px;
+   list-style: none;
+   
+}
+
+nav > ul> li {
+    display: inline-block;
+    margin: 0 15px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+nav > ul > li a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #f1f1f1;
+}
+nav > ul > li a:hover{
+    color: #bea4a4;
+}
+
+.bar1, .bar2 {
+    width: 20px;
+    height: 2px;
+    background-color:#f1f1f1;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+
+  #navicon{
+   float: right;
+   margin-top: 15px;
+   cursor: pointer;
+   display: none;
+  }
+
+  @media (max-width:1048px) {
+    label.logo{
+        padding-left: 50px;
+        font-size: 25px;
+    }
+    nav > ul{
+     margin-right: 20px;
+    }
+  }
+
+  @media (max-width:909px){
+     
+    #navicon{
+        display: block;
+        padding-right: 10px;
+    }
+    nav>ul {
+          position: fixed;
+          width: 100%;
+          height: 100vh;
+          background: #2f3640;
+          top:40px;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+      }
+      nav>ul.show{
+          left: 0;
+      }
+
+      nav > ul> li{
+         display: block;
+      }
+  }
+
+ 
+/* ***************************** main div ****************************************** */
 
 h1{
     font-size: x-large !important;
@@ -88,6 +178,8 @@ h6{
         height: 50vh !important;
     }
 }
+
+
 
 
 /* ************************************************** footer*************************** */

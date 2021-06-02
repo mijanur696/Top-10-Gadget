@@ -1,3 +1,10 @@
+// ***************************** navicon *************************
+document.querySelector('#navicon').addEventListener('click',function(){
+      document.getElementById('myul').classList.toggle('show')
+})
+
+
+
 var ctx=document.querySelector("#myChart1").getContext("2d");
 var myChart=new Chart(ctx,{
 
