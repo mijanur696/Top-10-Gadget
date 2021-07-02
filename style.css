@@ -205,3 +205,10 @@ footer{
 
 
 
+/* ************************* TechTips Page StyleSheet **************** */
+
+.TechTips-Container{
+    width: 70% !important;
+    margin: 10px auto !important;
+}
+
